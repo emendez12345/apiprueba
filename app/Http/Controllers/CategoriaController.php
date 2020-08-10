@@ -42,7 +42,7 @@ class CategoriaController extends Controller
      */
     public function store(Request $request)
     {
-        //Instanciamos la clase Pokemons
+        //Instanciamos la clase Categorias
         $categoria = new Categoria;
         //Declaramos el nombre con el nombre enviado en el request
         $categoria->nombre = $request->nombre;

@@ -37,7 +37,7 @@ class ArticuloController extends Controller
      */
     public function store(Request $request)
     {
-        //Instanciamos la clase Pokemons
+        //Instanciamos la clase Articulos
         $articulo = new Articulo;
         //Declaramos el nombre con el nombre enviado en el request
         $articulo->idcategoria = $request->idcategoria;
